@@ -1,4 +1,4 @@
-import com.udemy.java.masterclass.codingexercises.section05.PaintJob;
+import com.udemy.java.masterclass.codingexercises.section06.Person;
 
 public class Main {
 
@@ -82,15 +82,40 @@ public class Main {
 
 //		InputCalculator.inputThenPrintSumAndAverage();
 
-		System.out.println(PaintJob.getBucketCount(-3.4, 2.1, 1.5, 2));
-		System.out.println(PaintJob.getBucketCount(3.4, 2.1, 1.5, 2));
-		System.out.println(PaintJob.getBucketCount(2.75, 3.25, 2.5, 1));
-		System.out.println(PaintJob.getBucketCount(-3.4, 2.1, 1.5));
-		System.out.println(PaintJob.getBucketCount(3.4, 2.1, 1.5));
-		System.out.println(PaintJob.getBucketCount(7.25, 4.3, 2.35));
-		System.out.println(PaintJob.getBucketCount(3.4, 1.5));
-		System.out.println(PaintJob.getBucketCount(6.26, 2.2));
-		System.out.println(PaintJob.getBucketCount(3.26, 0.75));
+//		System.out.println(PaintJob.getBucketCount(-3.4, 2.1, 1.5, 2));
+//		System.out.println(PaintJob.getBucketCount(3.4, 2.1, 1.5, 2));
+//		System.out.println(PaintJob.getBucketCount(2.75, 3.25, 2.5, 1));
+//		System.out.println(PaintJob.getBucketCount(-3.4, 2.1, 1.5));
+//		System.out.println(PaintJob.getBucketCount(3.4, 2.1, 1.5));
+//		System.out.println(PaintJob.getBucketCount(7.25, 4.3, 2.35));
+//		System.out.println(PaintJob.getBucketCount(3.4, 1.5));
+//		System.out.println(PaintJob.getBucketCount(6.26, 2.2));
+//		System.out.println(PaintJob.getBucketCount(3.26, 0.75));
+
+//		SimpleCalculator calculator = new SimpleCalculator();
+//		calculator.setFirstNumber(5.0);
+//		calculator.setSecondNumber(4);
+//		System.out.println("add= " + calculator.getAdditionResult());
+//		System.out.println("subtract= " + calculator.getSubtractionResult());
+//		calculator.setFirstNumber(5.25);
+//		calculator.setSecondNumber(0);
+//		System.out.println("multiply= " + calculator.getMultiplicationResult());
+//		System.out.println("divide= " + calculator.getDivisionResult());
+
+		Person person = new Person();
+		person.setFirstName(""); // firstName is set to empty string
+		person.setLastName(""); // lastName is set to empty string
+		person.setAge(10);
+		System.out.println("fullName= " + person.getFullName());
+		System.out.println("teen= " + person.isTeen());
+		person.setFirstName("John"); // firstName is set to John
+		person.setAge(18);
+		System.out.println("fullName= " + person.getFullName());
+		System.out.println("teen= " + person.isTeen());
+		person.setLastName("Smith"); // lastName is set to Smith
+		System.out.println("fullName= " + person.getFullName());
+		person.setAge(-5);
+		System.out.println("age= " + person.getAge());
 
 	}
 
