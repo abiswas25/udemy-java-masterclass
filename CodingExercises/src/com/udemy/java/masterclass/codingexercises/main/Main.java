@@ -1,3 +1,5 @@
+package com.udemy.java.masterclass.codingexercises.main;
+
 import com.udemy.java.masterclass.codingexercises.section06.ComplexNumber;
 
 public class Main {
